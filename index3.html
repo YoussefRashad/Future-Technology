@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang = "en"> <!--The lang attribute specifies the language of the element's content-->
+	<head>
+		  <meta charset="UTF-8">
+		  <title>SamSung</title>
+		   <link rel="stylesheet" href="css/normalize.css">
+		   <link rel="stylesheet" href="css/style2.css">
+		   <link rel="shortcut icon" href="Icons/images.ico">
+		   <link rel="stylesheet" href="Sources/123w3css/w3css/w3.css">
+		   <link rel="stylesheet" href="Sources/Allerta/Allerta.css">
+		   <link rel="stylesheet" href="Sources/Cormorant Garamond/Cormorant Garamond.css">
+		   <link rel="stylesheet" href="Sources/Monoton/Monoton.css">
+		   <link rel="stylesheet" href="Sources/Lobster/Lobster.css">
+		   <link rel="stylesheet" href="Sources/Tangerine/Tangerine.css">
+		   
+		   <style>
+		
+			   .w3-allerta
+			{
+				font-family: "Allerta Stencil", Sans-serif;
+			}
+
+			.w3-cormorant
+			{
+				font-family: "Cormorant Garamond", cursive;
+			}
+
+			.w3-monoton
+			{
+				font-family: "Monoton", cursive;
+			}
+
+			.w3-lobster
+			{
+				font-family: "Lobster", serif;
+			}
+
+			.w3-tangerine
+			{
+				font-family: "Tangerine", serif;
+			}
+            		
+		</style>
+		
+		</head>
+		
+	<body>
+	
+<div class="w3-container w3-padding w3-wide w3-animate-zoom" style="display: none; max-height: 100%;" id="in"> <!-- Sign in Form -->
+
+		 <button class="w3-btn w3-text-red w3-xxxlarge w3-right w3-hover-none w3-hover-text-black w3-allerta" onclick="cw1()">X</button> <!-- Button for closing the sign In -->
+
+		 <br> <br> <br> <br> <!-- breaking lines -->
+
+			<center> <!-- Form for sign in -->
+
+				<div class="w3-card-4 w3-padding-16 w3-container" style="width: 75%;"> <!--the Form it self -->
+					<p class="w3-cormorant w3-xlarge w3-text-black">Enter Your Account To Enter To Site 👇 </p>
+
+					<br>
+
+					<img src="Personal/avatar-05.png" style="width: 200px;">
+
+					<br> <br> <br>
+
+					<fieldset style="padding: 20px; border-width: 30%;">
+
+						<input class="w3-input w3-round-xxlarge w3-cormorant w3-xlarge w3-text-black" placeholder="...Enter Your e-mail" type="email" id="usern" required>
+
+						<br> <br>
+
+						<input class="w3-input w3-round-xxlarge w3-cormorant w3-xlarge w3-text-black" type="password" placeholder="...Enter Your Password" id="pass" required>
+
+						<br> <br>
+
+						<input class="w3-input" type="checkbox"><label class="w3-cormorant w3-text-black">Always Remember Me</label>
+
+					</fieldset>
+
+					<br><br>
+
+					<a class="w3-btn w3-blue-gray w3-cormorant w3-text-black w3-xxlarge w3-hover-none w3-hover-text-black w3-round-xxlarge" href="Singed In index3.html" onclick="val">SignIn 👉</a>
+
+				</div> <!-- the end of the form it self -->
+
+			</center> <!-- End of the form sign in -->
+
+			<br> <br>
+
+			<center>
+			<button class="w3-btn w3-text-red w3-hover-none w3-hover-text-white w3-cormorant w3-xxxlarge" onclick="cw1()">Close</button>
+		   </center>
+
+		</div> <!-- The End of the Sign in form -->
+
+	  <div class="w3-container w3-padding-16 w3-animate-opacity" style="display: none; heigh: 100%;" id="IN"> <!--Log In Form -->
+
+	  	<button class="w3-btn w3-right w3-text-deep-purple w3-hover-none w3-hover-text-white w3-allerta w3-xxxlarge" onclick="cw2()">X</button>
+
+	  	<br> <br> <br> <br>
+
+	  	<center> <!-- Center the card -->
+
+	  	 <div class="w3-card-4 w3-padding-16 w3-container" style="width: 75%;"> <!-- The LogIn itself -->
+
+	  			<p class="w3-text-black w3-cormorant w3-xlarge">Enter Your Admain Name 👇 </p>
+
+	  			<img class="w3-circle" style="width: 200px;" src="Personal/avatar-01.png">
+
+	  			<br> <br> <br>
+
+	  			 <fieldset style="padding: 20px; border-width: thin">
+	  			 	<input type="text" required class="w3-input w3-cormorant w3-text-black w3-xlarge w3-round-xxlarge" placeholder="...Enter Admain Name">
+	  			 </fieldset>
+
+	  			<br> <br> <br>
+
+	  			<a class="w3-btn w3-text-black w3-hover-none w3-hover-text-blue-gray w3-cormorant w3-xxlarge w3-white w3-round-xxlarge" href="Admain page.html">LogIn 👉</a>
+
+	  	  </div> <!-- The end of the LogIn itself -->
+
+	  	  <br> <br>
+
+	  	  <button class="w3-btn w3-text-deep-orange w3-hover-none w3-hover-text-white w3-cormorant w3-xxxlarge" onclick="cw2()">Close</button>
+
+		 </center> <!-- End of centering the card -->
+
+	  </div> <!-- The end of the Log In form -->
+
+		<div class="w3-container w3-padding-16 w3-animate-top" style="display: none; height: 100%" id="ter"> <!-- The Register Form -->
+
+			<button class="w3-btn w3-text-lime w3-hover-none w3-hover-text-aqua w3-allerta w3-xxxlarge w3-right" onclick="cw3()">X</button>
+
+			<br> <br> <br> <br>
+
+			<center>
+
+				<div class="w3-card-4 w3-padding-16 w3-container" style="widht: 85%"> <!-- The Form itslef -->
+
+					<p class="w3-cormorant w3-xxlarge w3-text-black">Fill This Form 👇 </p>
+
+					<img class="w3-circle" style="width: 200px;" src="Personal/avatar4_big@2x.png">
+
+					<br> <br>
+
+					<fieldset style="border-width: thin" class="w3-padding-16">
+
+						<span>
+							<input class="w3-input w3-cormorant w3-xlarge w3-text-black w3-round-xxlarge w3-left" placeholder="...FirstName" style="width: 350px; margin-left: 100px; margin-right: 20px; margin-bottom: 20px;" type="text" required>
+							<input class="w3-input w3-cormorant w3-xlarge w3-text-black w3-round-xxlarge w3-left" placeholder="...MiddleName" style="width: 350px; margin-right: 20px; margin-bottom: 20px;" type="text" required>
+							<input class="w3-input w3-cormorant w3-xlarge w3-text-black w3-round-xxlarge w3-left" placeholder="...LastName" style="width: 350px; margin-bottom: 20px; margin-right: 20px;" type="text" required>
+						</span>
+
+						<input class="w3-input w3-cormorant w3-text-black w3-xlarge w3-round-xxlarge w3-left" style="width: 400px; margin-left: 450px; margin-right: 40px; margin-bottom: 20px;" type="email" placeholder="...E-mail" required>
+
+                        <input class="w3-input w3-round-xxlarge w3-text-black w3-cormorant w3-xlarge" type="text" placeholder="...EnterPassword" style="width: 500px; margin-bottom: 20px;" required>
+
+                        <input class="w3-input w3-round-xxlarge w3-text-black w3-cormorant w3-xlarge" type="text" placeholder="...ReEnterPassword" style="width: 500px; margin-bottom: 20px;" required>
+
+                      <input class="w3-input w3-cormorant w3-xlarge w3-text-black w3-round-xxlarge" type="text" placeholder="...Phone Number" style="width: 480px; margin-bottom: 10px;" required>
+
+                      <label class="w3-text-white w3-cormorant w3-xxlarge w3-center" style="margin-bottom: 10px;">Gender&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+                       <select class="w3-select w3-cormorant w3-xlarge" style="width: 100px; margin-bottom: 10px;">
+                        <option >....</option>
+                       	<option>Male</option>
+                       	<option>Female</option>
+                       </select>
+
+                           <div style="margin-bottom: 10px;">
+                        <i class="w3-cormorant w3-xxlarge w3-text-white">DOB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+                          <select class="w3-select w3-cormorant w3-xlarge" style="width: 100px;">
+                          	<option>Month</option>
+                          	<option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+							<option value="6">June</option>
+							<option value="7">July</option>
+							<option value="8">August</option>
+							<option value="9">September</option>
+							<option value="10">October</option>
+							<option value="11">November</option>
+							<option value="12">December</option>
+                          </select>
+
+                           <select class="w3-select w3-cormorant w3-xlarge" style="width: 100px;">
+                            <option>Day</option>
+                          	<option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                           </select>
+
+                           <select class="w3-select w3-cormorant w3-xlarge" style="width: 100px;">
+                            <option>Year</option>
+                          	<option value="1">2010</option>
+                            <option value="2">2011</option>
+                            <option value="3">2018</option>
+                            <option value="4">2019</option>
+                            <option value="5">2020</option>
+							<option value="6">2021</option>
+							<option value="7">2022</option>
+							<option value="8">2023</option>
+							<option value="9">2024</option>
+							<option value="10">2025</option>
+							<option value="11">2026</option>
+							<option value="12">2027</option>
+                           </select>
+
+						</div>
+
+					<div style="margin-bottom: 10px;">
+					    <input class="w3-check" type="checkbox" required>
+						<i class="w3-cormorant w3-xxlarge w3-text-black"> By clicking on this you agree to the <a href="Terms.html" target="_blank">Terms</a> and <a href="Privacy.html" target="_blank">Privacy</a></i>
+					</div>
+
+					</fieldset>
+
+					<center>
+					<br>
+						<a href="Singed In index3.html" class="w3-btn w3-white w3-text-black w3-hover-none w3-hover-text-teal w3-cormorant w3-xxlarge w3-round-xxlarge">Register 👉</a>
+					<br><br>
+					<button class="w3-btn w3-text-black w3-cormorant w3-xxlarge w3-round-xxlarge w3-hover-none w3-hover-text-amber" onclick="rev()">Already have an account SignIn</button>
+					</center>
+
+				</div> <!-- The end Form ItSelf -->
+
+			</center>
+
+			<center>
+			    <br>
+				<button class="w3-btn w3-hover-none w3-hover-text-yellow w3-text-black w3-cormorant w3-xxxlarge" onclick="cw3()">Close</button>
+			</center>
+
+		</div> <!-- The end of the register form -->
+
+
+		<div class="w3-container w3-padding-16 w3-animate-right" style="height: 100%; display: none" id="us"> <!-- Know more about Us -->
+
+			<button class="w3-btn w3-right w3-text-light-green w3-hover-none w3-hover-text-aqua w3-allerta w3-xxxlarge" onclick="cw4()">X</button>
+
+			<br><br><br><br><br><br>
+
+   <center>
+     <p class="w3-lobster w3-xxxlarge w3-text-light-blue">Team Memebers</p>
+	</center>
+
+	 <br> <br>
+			<div class="w3-row"> <!-- First Row -->
+
+			<center>
+
+				<div class="w3-third w3-dropdown-hover w3-black w3-padding-16" style="margin-right: 0px; margin-bottom: 20px;"> <!--First Third -->
+
+				 <img src="Team images/Screenshot_10.png" class="w3-circle" style="width: 210px; margin-bottom: 10px;">
+
+				<div class="w3-dropdown-content w3-card-4 w3-white" style="position: inherit;">
+
+					<div class="w3-red">
+						<br>
+					</div>
+
+					<br>
+					<p class="w3-tangerine w3-text-black w3-xxxlarge" style="text-align: center;">Engi Ashraf.</p>
+					<p class="w3-cormorant w3-text-black w3-xlarge" style="text-align: center">System Analyist.</p>
+					<br>
+
+					<div class="w3-red">
+						<br>
+					</div>
+
+				</div>
+
+				</div> <!-- The End Of the First Third -->
+
+				<div class="w3-third w3-black w3-dropdown-hover w3-padding-16 w3-left" style="margin-right:; margin-bottom: 20px;"> <!-- The second Third -->
+
+					<img src="Team images/Screenshot.png" class="w3-circle" style="margin-bottom: 18px; width: 179px;">
+					<div class="w3-dropdown-content w3-card-4 w3-white" style="position: inherit;">
+
+						<div class="w3-blue-gray">
+							<br>
+						</div>
+
+						<br>
+						<p class="w3-tangerine w3-xxxlarge w3-text-black" style="text-align: center;">Mohamed Akram.</p>
+						<p class="w3-cormorant w3-xlarge w3-text-black" style="text-align: center">Founder Of The Futuer-Tech Company.</p>
+						<br>
+
+						<div class="w3-blue-gray">
+							<br>
+						</div>
+
+					</div>
+
+				</div> <!-- The End of the second Third -->
+
+
+				<div class="w3-third w3-dropdown-hover w3-black w3-padding-16" style="margin-bottom: 20px;"> <!--Third Third -->
+
+				<img class="w3-circle" src="Team images/you.png" style="width: 210px; margin-bottom: 7.9px;">
+
+					<div class="w3-dropdown-content w3-card-4 w3-white" style="position: inherit;">
+
+						<div class="w3-dark-gray">
+							<br>
+						</div>
+
+						<br>
+						<p class="w3-tangerine w3-xxxlarge w3-text-black" style="text-align: center;">Youssef Rashad.</p>
+						<p class="w3-cormorant w3-xlarge w3-text-black" style="text-align: center;">Security Expert.</p>
+						<br>
+
+						<div class="w3-dark-gray">
+							<br>
+						</div>
+
+					</div>
+
+				</div> <!-- The End of Third Third -->
+
+				</center>
+
+			</div> <!-- End of the first row -->
+
+			<div class="w3-row"> <!--The Second Row -->
+
+				<center>
+
+					<div class="w3-third w3-dropdown-hover w3-black w3-padding-16" style="margin-top: 20px;"> <!-- Fourth Third -->
+
+						<img src="Team images/Screenshot_12.png" class="w3-circle" style="margin-bottom: 10px; width: 240px;">
+
+						<div class="w3-dropdown-content w3-card-4 w3-white" style="position: inherit;">
+
+						<div class="w3-indigo">
+							<br>
+						</div>
+
+						<br>
+						<p class="w3-tangerine w3-xxxlarge w3-text-black" style="text-align: center;">Eman Qady.</p>
+						<p class="w3-cormorant w3-xlarge w3-text-black" style="text-align: center;">System Designer.</p>
+						<br>
+
+						<div class="w3-indigo">
+							<br>
+						</div>
+
+						</div>
+
+					</div> <!-- The end of the Fourth Third -->
+
+					<div class="w3-third w3-dropdown-hover w3-black w3-padding-16" style="margin-top: 20px;"> <!-- The Fifth third -->
+
+						<img src="Team images/Screenshot_13.png" class="w3-circle" style="width: 183px; margin-bottom: 10px;">
+
+						<div class="w3-dropdown-content w3-white w3-card-4" style="position: inherit;">
+
+							<div class="w3-pink">
+								<br>
+							</div>
+
+							<br>
+							<p class="w3-tangerine w3-text-black w3-xxxlarge" style="text-align: center;">Rawan Osama.</p>
+							<p class="w3-cormorant w3-text-black w3-xlarge" style="text-align: center;">Technical Suppotor.</p>
+							<br>
+
+							<div class="w3-pink">
+								<br>
+							</div>
+
+						</div>
+
+					</div> <!-- The End of the Fifth Third -->
+
+					<div class="w3-third w3-dropdown-hover w3-black w3-padding-16" style="margin-top: 20px;"> <!-- The Final Third -->
+
+						<img class="w3-circle" src="Team images/Screenshot_14.png" style="width: 278px; margin-bottom: 10px;">
+
+						<div class="w3-dropdown-content w3-white w3-card-4" style="position: inherit;">
+
+							<div class="w3-deep-purple">
+								<br>
+							</div>
+
+							<br>
+							<p class="w3-tangerine w3-xxxlarge w3-text-black" style="text-align: center;">Heba Elsayed.</p>
+							<p class="w3-cormorant w3-xlarge w3-text-black" style="text-align: center;">Problem Solver.</p>
+							<br>
+
+							<div class="w3-deep-purple">
+								<br>
+							</div>
+
+						</div>
+
+					</div> <!-- The End of the final Third -->
+
+				</center>
+
+			</div> <!--The End of the Second Row -->
+
+			<br>
+
+			<center>
+			<button class="w3-btn w3-text-light-green w3-hover-none w3-hover-text-aqua w3-cormorant w3-xxxlarge" onclick="cw4()">Close</button>
+			</center>
+
+		</div> <!-- The End of Know more About Us -->
+      
+
+	
+		<div class="container" id="1"></div>
+			<div class="header" id="1.1">
+				<div class="navbar">
+					<div class ="container">
+					<h2>SAM<span>SUNG</span></h2>
+						<ul>
+							<li><a class="w3-btn" href="MAiN.html">HO<span>ME</span></a></li>
+							<li><button class="w3-btn" onclick="Team()">ABOUT <span>US</span></button></li>
+							<li><button class="w3-btn" onclick="Sign()">SIGN<span>IN</span></button></li>
+							<li><button class="w3-btn" onclick="Regis()">REGI<span>STER</span></button></li>
+							<li><button class="w3-btn" onclick="Log()">ADM<span>AIN</span></button></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			       <div class="im" id="2">
+						<img src="images/download.png">
+				   </div>
+			<div class ="about " id="3">
+				<div class="container" >
+					<div class="image">
+				       <img src="images/30422351_442335359531208_632418810_n.jpg">
+				    </div>
+			        <div class="info">
+					<p class ="par" >Galaxy S9 | S9+<button type="button"><a class="w3-btn" href="description.html">Description </a></button></p>
+				    </div>
+			    </div>
+			</div>
+			<div class ="about1 " id="4">
+				<div class="container" >
+					<div class="image1">
+				       <img src="images/Black.png">
+				    </div>
+			        <div class="info1">
+				    <p class ="par" >Galaxy Note8<button type="button"><a href="Samsung Bendable.htm" class="w3-btn">Description </a></button></p>
+				    </div>
+			    </div>
+			</div>    
+			<div class ="about2 " id="5">
+				<div class="container" >
+			    <div class="image2">
+				       <img src="images/30429749_442395329525211_77947820_n.png">
+				    </div>
+			        <div class="info2">
+				    <p class ="par" >Galaxy A8<button type="button"><a href="STR1PE Phone  .html" class="w3-btn">Description </a></button></p>
+				    </div>  
+			    </div>
+			</div>    
+			
+			<center id="spons" class="w3-animate-bottom">
+			<div>
+			<p class="w3-cormorant w3-text-black w3-xxlarge">Don't forget to visit our sponsor brand</p>
+			<div class="w3-display-container slide"> <!--Infinite-Source-->
+				<img class="w3-hover-sepia w3-round-xlarge" src="Wallpaper/techno-digital-infinity-logo-design-concept-vector.jpg" style="width: 500px;">
+				<div class="w3-display-hover w3-display-middle">
+					<a class="w3-btn w3-round-xxlarge w3-light-gray w3-text-blue-gray w3-hover-blue-gray w3-hover-none w3-hover-text-dark-gray w3-allerta w3-xlarge" href="Infinit-source(1).html">Infinit-Source</a>
+				</div>
+			</div> <!--End of the Infinite Source -->
+			
+			<div class="w3-display-container slide"> <!--Hawaii-->
+				<img class="w3-hover-grayscale w3-round-xlarge" src="LOGOS/huawei-logo.jpg" style="width: 500px;">
+				<div class="w3-display-hover w3-display-middle">
+					<a class="w3-btn w3-round-xxlarge w3-red w3-text-white w3-hover-white w3-hover-none w3-hover-text-red w3-allerta w3-xlarge" href="Huawei.html">Huawei</a>
+				</div>
+			</div> <!--End of Hawaii -->
+	
+		</div>
+	</center>
+	<br> <br>		
+		<div class="container" ></div>
+			<div class="header" id="sec">
+				<div class="navbar">
+					<div class ="container">
+						<ul>
+							<button class="w3-btn" onclick="Team()"><li>ABOUT US</li></button>
+							<a class="w3-btn" href="Privacy.html"><li>Privacy</li></a>
+							<a class="w3-btn" href="Terms.html"><li>Terms</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>            
+			
+			
+			<script>
+               
+				document.getElementById("in").style.animationDuration = "5s";
+				document.getElementById("IN").style.animationDuration = "5s";
+				document.getElementById("ter").style.animationDuration = "5s";
+				document.getElementById("us").style.animationDuration = "5s";
+				document.getElementById("spons").style.animationDuration = "6s";
+				
+				function Sign()
+			{
+				
+				document.getElementById("sec").style.display = "none";
+				document.getElementById("spons").style.display = "none";
+				document.getElementById("in").style.display = "block" ;
+				document.getElementById("in").style.animationDuration = "2.9s" ;
+				document.getElementById("1").style.display = "none";
+				document.getElementById("1.1").style.display = "none";
+				document.getElementById("2").style.display = "none";
+				document.getElementById("3").style.display = "none";
+				document.getElementById("4").style.display = "none";
+				document.getElementById("5").style.display = "none";
+				document.getElementById("6").style.display = "none";
+			}
+
+			function cw1()
+			{
+				
+				document.getElementById("sec").style.display = "block";
+				document.getElementById("spons").style.display = "block";
+				document.getElementById("in").style.display = "none" ;
+				document.getElementById("1").style.display = "block";
+				document.getElementById("1.1").style.display = "block";
+				document.getElementById("2").style.display = "block";
+				document.getElementById("3").style.display = "block";
+				document.getElementById("4").style.display = "block";
+				document.getElementById("5").style.display = "block";
+				document.getElementById("6").style.display = "block";
+			}
+
+			function Log()
+			{
+				
+				document.getElementById("sec").style.display = "none";
+				document.getElementById("spons").style.display = "none";
+				document.getElementById("IN").style.display = "block" ;
+				document.getElementById("IN").style.animationDuration = "3s" ;
+				document.getElementById("1").style.display = "none";
+				document.getElementById("1.1").style.display = "none";
+				document.getElementById("2").style.display = "none";
+				document.getElementById("3").style.display = "none";
+				document.getElementById("4").style.display = "none";
+				document.getElementById("5").style.display = "none";
+				document.getElementById("6").style.display = "none";
+			}
+
+			function cw2()
+			{
+				
+				document.getElementById("sec").style.display = "block";
+				document.getElementById("spons").style.display = "block";
+				document.getElementById("IN").style.display = "none" ;
+				document.getElementById("1").style.display = "block";
+				document.getElementById("1.1").style.display = "block";
+				document.getElementById("2").style.display = "block";
+				document.getElementById("3").style.display = "block";
+				document.getElementById("4").style.display = "block";
+				document.getElementById("5").style.display = "block";
+				document.getElementById("6").style.display = "block";
+			}
+
+			function Regis()
+			{
+				
+				document.getElementById("sec").style.display = "none";
+				document.getElementById("spons").style.display = "none";
+				document.getElementById("ter").style.display = "block" ;
+				document.getElementById("ter").style.animationDuration = "3s" ;
+				document.getElementById("1").style.display = "none";
+				document.getElementById("1.1").style.display = "none";
+				document.getElementById("2").style.display = "none";
+				document.getElementById("3").style.display = "none";
+				document.getElementById("4").style.display = "none";
+				document.getElementById("5").style.display = "none";
+				document.getElementById("6").style.display = "none";
+			}
+
+			function cw3()
+			{
+				
+				document.getElementById("sec").style.display = "block";
+				document.getElementById("spons").style.display = "block";
+				document.getElementById("ter").style.display = "none" ;
+				document.getElementById("1").style.display = "block";
+				document.getElementById("1.1").style.display = "block";
+				document.getElementById("2").style.display = "block";
+				document.getElementById("3").style.display = "block";
+				document.getElementById("4").style.display = "block";
+				document.getElementById("5").style.display = "block";
+				document.getElementById("6").style.display = "block";
+			}
+
+			function rev()
+			{
+				
+				document.getElementById("sec").style.display = "none";
+				document.getElementById("spons").style.display = "none";
+				document.getElementById("ter").style.display = "none" ;
+				document.getElementById("in").style.display = "block" ;
+				document.getElementById("in").style.animationDuration = "2.9s" ;
+				document.getElementById("1").style.display = "none";
+				document.getElementById("1.1").style.display = "none";
+				document.getElementById("2").style.display = "none";
+				document.getElementById("3").style.display = "none";
+				document.getElementById("4").style.display = "none";
+				document.getElementById("5").style.display = "none";
+				document.getElementById("6").style.display = "none";
+			}
+
+			function Team()
+			{
+				
+				document.getElementById("sec").style.display = "none";
+				document.getElementById("spons").style.display = "none";
+				document.getElementById("us").style.display = "block" ;
+				document.getElementById("us").style.animationDuration = "3s";
+				document.getElementById("1").style.display = "none";
+				document.getElementById("1.1").style.display = "none";
+				document.getElementById("2").style.display = "none";
+				document.getElementById("3").style.display = "none";
+				document.getElementById("4").style.display = "none";
+				document.getElementById("5").style.display = "none";
+				document.getElementById("6").style.display = "none";
+				}
+
+			function cw4()
+			{
+				document.getElementById("sec").style.display = "block";
+				document.getElementById("spons").style.display = "block";
+				document.getElementById("us").style.display = "none" ;
+				document.getElementById("1").style.display = "block";
+				document.getElementById("1.1").style.display = "block";
+				document.getElementById("2").style.display = "block";
+				document.getElementById("3").style.display = "block";
+				document.getElementById("4").style.display = "block";
+				document.getElementById("5").style.display = "block";
+				document.getElementById("6").style.display = "block";
+			}
+				
+				var image = 0;
+			 slide();
+			
+			function slide()
+			{
+				var x = document.getElementsByClassName("slide");
+				var i;
+				for(i = 0 ; i < x.length ; i++)
+					{
+						x[i].style.display = "none";
+					}
+				image++;
+				if(image > x.length) {image = 1}
+				x[image-1].style.display = "block";
+				setTimeout(slide , 2000);
+			}
+				
+			</script>
+			
+	</body>
+	</html>

@@ -1,0 +1,159 @@
+.container{
+	
+	width:1170px;
+	margin:auto;
+}
+.header .navbar{
+	background-color:#404040;
+	color:#FFF;
+	overflow:hidden;
+	
+}
+.header .navbar h2{
+	float:left;
+	
+}
+.header .navbar h2 span{
+	color:blue;
+}
+.header .navbar ul{
+	list-style:none;
+	padding-left:0;
+	overflow:hidden;
+	float:right;
+}
+.header .navbar ul li span{
+	color:blue;
+}
+.header .navbar ul li
+{
+float:left ;
+padding:10px;
+}
+.im
+{
+padding-top:30px;
+	text-align:center;
+}
+.about{
+	
+	overflow:hidden;
+	background-color:white;
+	
+}
+.about .image
+{
+	float:right;
+     width:50%;	
+}
+
+.info
+{
+	float:left;
+	width:50%;
+}
+.about .info p
+{
+	margin:150px 150px 250px 100px;
+	font-size:50px;
+}
+.about .info button {
+	 background-color: gray; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+	border-radius: 50%;
+	}	
+.about1
+{
+	overflow:hidden;
+	background-color:#F2F2F2;
+
+}
+.about1 .image1
+{
+float:right;
+width:60%;
+}
+.about1 .info1{
+		float:left;
+		width:40%;
+}
+
+.about1 .info1 p
+{
+	margin:150px 100px 250px 50px;
+	font-size:50px;
+}
+.about1 .info1 button {
+	 background-color: gray; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+	border-radius: 50%;
+	}	
+	.about2
+{
+	overflow:hidden;
+
+
+}
+.about2 .image2
+{
+float:right;
+width:60%;
+}
+.about2 .info2{
+		float:left;
+		width:40%;
+}
+
+.about2 .info2 p
+{
+	margin:150px 100px 250px 50px;
+	font-size:50px;
+}
+.about2 .info2 button {
+	 background-color: gray; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+	border-radius: 50%;
+	}	
+.about3
+{
+	overflow:hidden;
+   background-color:gray;
+
+}
+
+.about3 .info3{
+		float:left;
+			margin:40px 40px 40px 5px;
+	font-size:20px;
+	font-color:black;
+}
+/*
+.about3 .info3 p
+{
+	margin:50px 50px 50px 50px;
+	font-size:25px;
+}
+.about3 .info3 ul
+{
+	margin:50px 50px 50px 50px;
+	font-size:25px;
+}*/
+	

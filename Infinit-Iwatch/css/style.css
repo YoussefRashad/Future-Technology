@@ -1,0 +1,751 @@
+/* my frame work */
+.bold
+{
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.paragraph
+{
+    color: #86878b;
+    font-size: 14px;
+}
+.left-orange-divider
+{
+    width: 60px;
+    border: 1px solid #ff9b51;
+    margin-left: 0;
+    
+}
+
+/* start centered div */
+.center
+{
+    align-content: center;
+    text-align: center;
+}
+
+.centered-head
+{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+}
+
+.centered-divider
+{
+    width: 60px;
+    border: 1px solid #ff9b51;
+}
+/* start centered div */
+
+/* my frame work */
+
+
+/* start first header */ 
+
+
+.first-header
+{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/bg-1.jpg")
+    center center fixed no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 662px;
+    
+}
+
+
+/* end first header */ 
+
+/* start navbar */ 
+
+.navbar-default
+{
+    height: 70px;
+    background:#000000;
+    border: none;
+    border-radius: 0px;
+    
+    
+}
+.navbar-default .navbar-nav>li>a ,
+.navbar-default .navbar-nav>li>a:hover ,
+.navbar-default .navbar-nav>li>a:focus
+{
+     color: #b0b0b0;
+     font-size: 16px;
+     
+}
+
+.navbar-default .navbar-collapse
+{
+    margin-top: 10px;
+}
+
+.navbar-default .navbar-brand
+{
+    margin-top: 5px;
+}
+
+@media(max-width:765px)
+{
+
+    .navbar-default .navbar-toggle
+    ,.navbar-default .navbar-toggle:hover
+    ,.navbar-default .navbar-toggle:focus
+    {
+        margin-top: 17px;
+        margin-right: 15px;
+        border-radius: 0px;
+        background-color: transparent;
+        border-color:  #ff9b51;
+    }
+    
+    .navbar-default .navbar-toggle .icon-bar
+    {
+        background-color:  #ff9b51;
+        
+    }
+    
+    .navbar-default .navbar-collapse
+    {
+        background-color: black;
+        text-align: center;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        border-color:  #ff9b51;;
+    }
+    
+    .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus
+    {
+        color:  white;
+    }
+}
+
+/* end navbar */
+
+/* start left div */
+ 
+.first-header .left
+{
+ 
+    margin-top: 50px ;
+    left: 0;
+}
+
+.left > p:first-of-type span
+{
+    
+    font-size: 30px;
+    color: white;
+    display: block;
+    font-weight: 300;
+}
+
+.left > p
+{
+    margin-top: 30px;
+}
+
+
+
+.left .divider
+{
+    width: 60px;
+    border: white 1.5px solid;
+    margin-left: 0;
+    margin:40px 0; 
+}
+
+.left > p:last-of-type span
+{
+    
+    font-size: 15px;
+    color: #e0dfdf;
+    display: block;
+    line-height: 1.6;
+}
+
+
+.first-header  .left > button
+{
+  padding: 10px 30px;
+  color: white;
+  border: 1px solid #FFFFFF ;
+  font-size: 16px; 
+  margin-top: 30px;
+  background-color: transparent;
+  transition: ease-in-out .5s;     
+}
+
+.first-header  .left > button:hover
+{
+      background-color: #ff9b51;
+      color: white;
+      border: 1px solid #ff9b51 ;
+      box-shadow: 4px 4px 3px #000000;
+
+}
+/* end left div */
+
+/* start right div */
+
+.first-header .right
+{
+    height: 350px;
+    max-width: 350px;
+    background-color: white;
+    float:right;
+    margin:100px 0;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    padding: 40px;
+    
+    
+}
+
+.first-header .right p
+{
+    color:#333333;
+    font-size: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 15px 0;
+    font-weight:bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.right p span
+{
+    color:#ff9b51;
+}
+
+.right input[type="submit"]
+{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    background-color:#ff9b51 ;
+    border: none;
+    outline: none;
+    padding: 15px 0;
+    font-weight:bold;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    right:0;
+    width: 100%;
+    transition: ease-in-out .5s;
+}
+
+@media(max-width:991px){
+.first-header .right
+    {
+        float: left;
+    }
+   
+    
+}
+
+.right input
+{
+width: 100%;
+border: none;
+border-bottom: 2px solid #eeeeee;
+margin-top: 30px;
+color: #888;
+outline: none;  
+padding-bottom: 10px; 
+display: block;
+transition: ease-in-out .5s;
+
+    
+}
+.right input:focus 
+{
+   border-bottom: 2px solid #ff9b51;
+    
+}
+
+.right form
+{
+    padding:20px 0px;
+}
+
+/* end right div */
+
+/* start second div */ 
+
+.second-header
+{
+    max-height: 700px;
+    
+}
+
+/* end second div */ 
+
+
+/* start social media */
+
+.social-media
+{
+ padding: 15px 0px;
+ box-shadow: 0 2px 3px #888;    
+}
+
+/* end social media */ 
+
+/* start icons */
+.social-media .right
+{
+    margin-top: 20px;
+}
+
+.social-media .right .list-group a
+{
+    color: #d8d6d6;
+    font-size: 30px;
+    margin-left: 20px;
+    transition: ease-in-out .3s;
+}
+.social-media .right .list-group a:hover
+{
+    color: #ff9b51;
+}
+
+/* end icons */
+
+
+
+/* start third div */
+
+.third-header
+{
+    min-height: 600px;
+    padding: 150px 0;
+}
+/* end third div */
+
+/* start right div */
+
+.third-header hr
+{
+    width: 60px;
+    border: 1px solid #ff9b51;
+    margin-left: 0;
+}
+.row
+{
+    margin-top: 30px;
+}
+
+.third-header .row .title p:first-of-type
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #212121;
+    
+}
+
+.third-header .row i
+{
+    color: #ff9b51;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border:2px #ff9b51 solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* end right div */
+
+
+/* start forth header */
+
+.forth-header
+{
+    min-height: 550px;
+    background-color: #EEE;
+    padding: 100px 0;
+}
+/* start forth header */
+/* start left div */
+.forth-header > left
+{
+    margin-top: 50px;
+}
+/* start left div */
+
+
+
+/* start features div */
+.features
+{
+    min-height:600px; 
+    padding: 100px 0;
+}
+/* start features div */
+
+/* start feat */
+
+.features .feat-1 , .feat-2 , .feat-3 
+{
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px 0px;
+    
+}
+
+/* end feat */
+
+/* start icons */
+.features  i
+{
+    padding: 15px 20px;
+    border-radius: 50%;
+    border:2px #ff9b51 solid;
+    margin:15px 0px;
+    font-size: 20px;
+    color: #ff9b51 ;
+
+}
+
+.features .feat-2 i
+{
+    padding: 15px 15px;
+    border-radius: 50%;
+    border:2px #ff9b51 solid;
+    margin: 15px 0;
+    font-size: 20px;
+    color: #ff9b51 ;
+}
+
+.feat-1:hover , .feat-2:hover , .feat-3:hover 
+{
+    border: #ff9b51 solid 2px;
+    cursor: pointer;
+}
+
+/* end icons */
+
+/* start pricing div */
+
+.pricing
+{
+    min-height: 880px;
+    padding: 100px 0;
+    background-color: #EEE;
+}
+/* end pricing div */
+
+/* start price box */
+
+.pricing .price-box
+{    
+    text-align: center;
+    margin-top:115px;
+    transition: ease-in-out .2s;    
+}
+
+.pricing .price-type
+{
+    color: white;
+    background-color: #333;
+    padding: 15px 0px;
+    border-bottom: 1px solid #EEE ;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.price-box .price
+{
+    background-color: #333;
+    padding: 15px 0px;
+    color: white;
+  
+}
+
+.price-box .price span:first-of-type
+{
+    font-size: 20px;
+}
+
+.price-box .price span:last-of-type
+{
+    font-size: 60px;
+}
+
+.price-box  .separetor
+{
+    background-color:#ff8b38;
+    height: 3px;
+}
+
+.price-box .discription
+{
+    font-size: 15px;
+    color: #888;
+    font-style: italic;
+}
+
+.price-box .advantage
+{
+    color:  #86878b;
+    padding: 15px 0 ;
+    font-size: 15px;
+    background-color: white;
+}
+
+.price-box hr
+{
+    margin: 0;
+}
+
+.price-box .special-separetor
+{
+    padding: 10px 0;
+    background-color:#ff8b38;
+    color: white;
+}
+
+#special
+{
+    margin-top: 78px;
+ 
+}
+
+.price-box .advantage:hover
+{
+    color: white;
+    background-color:#ff8b38; 
+}
+
+.price-box:hover
+{
+    transform: scale(1.01);
+}
+/* end price box */
+
+/* start testimonials */
+
+.testimonials
+{
+    background-color: white;
+    min-height: 600px;
+    padding: 100px 0 150px 0;
+}
+
+/* end testimonials */
+
+/* start testimonial message */
+
+.test
+{
+    text-align: center;
+    max-width: 273px;
+    background-color: #EEE;
+    margin: 50px auto 40px auto;
+    padding: 15px 5px;
+    font-size: 15px;
+    color: #888;
+    font-style: italic;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.test:before
+{
+    content: "";
+    position: absolute;
+    border-width: 15px 10px 0px 10px;
+    border-style: solid;
+    border-color: #EEE transparent;
+    width: 0;
+    bottom: -15px;
+    left: 30px;
+    display: block;
+    
+}
+
+.test:after
+{
+    content: url("../img/testimonials.png");
+    position: absolute;
+    bottom: -100px;
+    left: 5px;
+    display: block;
+}
+
+
+
+
+@media (max-width:991px)
+{
+    .test
+    {
+margin: 100px auto 40px auto;  
+    }
+}
+
+/* end testimonial message */
+
+
+
+/* start download div */
+.download
+{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../img/bg-2.jpg") center center no-repeat;
+    width: 100%;
+    padding: 50px 0;
+    background-size: cover;
+}
+
+
+.download .center p:first-of-type
+{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+
+}
+
+.download .center hr
+{
+    width: 60px;
+    border: 1px solid white;
+   
+}
+
+.download .center button
+{
+  padding: 10px 30px;
+  color: white;
+  border: 1px solid #FFFFFF ;
+  font-size: 16px; 
+  margin-top: 30px;
+  background-color: transparent;
+  transition: ease-in-out .5s;     
+}
+
+.download .center button:hover
+{
+      background-color: white;
+      color: black;
+      border: 1px solid white ;
+      box-shadow: 4px 4px 3px #000000;
+
+}
+
+
+
+/* end download div */
+
+/* start form */
+
+.form
+{
+    padding: 100px 0px;
+    min-height: 600px;
+}
+
+
+.form input
+{
+width: 100%;
+border: none;
+border: 2px solid #eeeeee;
+padding: 10px;
+margin-top: 30px;
+color:#333 ;
+outline: none;  
+padding-bottom: 10px; 
+display: block;
+transition: ease-in-out .5s;
+
+    
+}
+
+#message
+{
+    padding-bottom: 157px;
+}
+.form input:focus 
+{
+   border: 2px solid #ff9b51;
+    
+}
+*::-webkit-input-placeholder {
+    color: #888;
+}
+
+.form input[type="submit"]
+{
+  padding: 10px 30px;
+  color: white;
+  border: 1px solid  #ff9b51;
+  font-size: 16px; 
+  margin-top: 30px;
+  background-color: #ff9b51; 
+  transition: ease-in-out .5s; 
+  margin: 50px auto;
+  max-width: 190px;
+
+}
+
+.form input[type="submit"]:hover
+{
+    box-shadow: 2px 2px 3px 2px #333;
+}
+
+/* end form */
+
+/* start footer */
+
+.footer
+{
+    padding: 10px 0px;
+    background-color: black;
+}
+
+.footer .list-group 
+{
+    margin-top:20px;
+}
+.footer .list-group a
+{
+    color: #cccccc;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.footer .copyrights
+{
+    color: #cccccc;
+    font-size: 10px;
+
+}
+
+/* end footer */
+
+
+
+
+
+
+
+
+
+
+
+
